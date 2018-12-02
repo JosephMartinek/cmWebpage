@@ -13,7 +13,10 @@ section h5 {
 	padding-top: 150px;
 	padding-bottom: 10px;
 }
-
+h6 {
+	visibility: hidden;
+	height: 0px;
+}
 
 /* tableone */
 section#tableone {

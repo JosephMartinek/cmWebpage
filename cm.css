@@ -40,10 +40,14 @@ body blockquote::after {
 	font-weight: bold;
 }
 article.homephoto {
-	margin-left: auto;
+	margin-left: 50px;
 	margin-right: auto;
 	display: block;
 	width: 90%;
+	float: left;
+}
+div#quoted {
+	margin-left: 150px;
 }
 /* Site Navigation Styles */
 
@@ -87,11 +91,13 @@ header {
 footer {
 	background-color: hsla(341, 65%, 61%, 1);
 	text-align: center;
-	font-size: 1em;
+	font-size: 0.9em;
 	color: white;
 	clear: both;
 	width: 100%;
+	height: 20px;
 	margin-left: auto;
+	padding: 2px 0px 2px 0px;
 }
 
 
