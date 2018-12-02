@@ -1,0 +1,169 @@
+/* info.html */
+
+section h5 {
+	text-align: center;
+	float: clear;
+	font-size: 2em;
+	letter-spacing: .1em;
+	margin-left: 20%;
+	margin-right: 10%;
+	width: 70%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding-top: 150px;
+	padding-bottom: 10px;
+}
+
+
+/* tableone */
+section#tableone {
+	width: 43%;
+	height: 190px;
+	float: left;
+	margin-left: 20%;
+	margin-bottom: 5px;
+}
+table.one {
+	border: 2px solid rgba(220, 91, 132, 1);
+	border-collapse: separate;
+	border-spacing: 5px;
+	font-size: 1em;
+	width: 100%;
+}
+table.one th {
+	border: 2px solid black;
+	padding: 5px;
+	vertical-align: top;
+	font-size: 1.2em;
+}
+table.one td {
+	border: 1px solid black;
+	padding: 5px;
+	vertical-align: top;
+}
+table.one tbody tr {
+	height: 200px;
+}
+table.one thead, table.one tbody {
+	background: rgba(243, 200, 214, 1);
+	color: black;
+}
+div.scroll {
+	overflow: scroll;
+	height: 200px;
+}
+
+
+/* formone */
+form#formone {
+	width: 26%;
+	height: 190px;
+	float: right;
+	padding: 5px;
+	margin-right: 8.5%;
+	margin-bottom: 5px;
+	border: 2px solid rgba(220, 91, 132, 1);
+	background: rgba(243, 200, 214, 1);
+}
+.formtxt input {
+	width: 50%;
+	float: right;
+	font-size: .75em;
+	margin-right: 5px;
+}
+label {
+	font-size: .75em;
+	margin-left: 5px;
+}
+div.formtxt div, div.formtxt2 div {
+	margin-bottom: 5px;
+}
+input#submit {
+	float: right;
+	margin-right: 10px;
+	width: 100px;
+}
+input#reset {
+	float: left;
+	margin-left: 10px;
+	width: 100px;
+}
+/* tabletwo */
+section#tabletwo {
+	width: 70%;
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 2px solid rgba(220, 91, 132, 1);
+	float: left;
+	background: rgba(243, 200, 214, 1);
+}
+table.two {
+	border: 2px solid rgba(220, 91, 132, 1);
+	border-collapse: collapse;
+	font-size: 1em;
+	width: 100%;
+}
+table.two td, table.two th {
+	border: 1px solid black;
+	padding: 5px;
+	vertical-align: top;
+}
+table.two td {
+	background: white;
+}
+col.topheader {
+	background: rgba(90, 78, 218, 1);
+}
+col#firstcol {
+	background: rgba(153, 146, 232, 1);
+}
+table.two thead tr:nth-child(1) {
+	background: rgba(90, 78, 218, 1);
+}
+/* header for tabletwo */
+
+table.header {
+	border: 2px solid rgba(220, 91, 132, 1);
+	border-collapse: collapse;
+	font-size: 1.2em;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 10px;
+	background: white;
+}
+table.header th {
+	padding: 10px;
+	vertical-align: top;
+}
+
+/* flexbox */
+section.parent article {
+	width: 100px;
+	padding: 5px;
+}
+section.parent article img {
+	width: 100%;
+}
+section.parent {
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-bottom: 5px;
+	width: 70%;
+	justify-content: space-around;
+	border: 2px solid rgba(220, 91, 132, 1);
+	padding: 5px;
+	background: rgba(243, 200, 214, 1);
+}
+section.parent article {
+	-webkit-flex: 1 1 100px;
+	flex: 1 1 100px;
+}
+

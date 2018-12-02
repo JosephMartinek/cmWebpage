@@ -1,0 +1,162 @@
+/*
+   OC CIS 155 Web Development I
+   BoC Baseline Style Sheet for Scenic Byways Site
+
+   Author: Joseph Martinek
+   Date: 10/28/18
+
+   Filename:  cm.css
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+header, section, nav {
+   display: block;
+}
+
+
+/* Body styles */
+html {
+	background-color: rgba(248, 221, 230, 1);
+}
+body {
+	width: 80%;
+    min-width: 900px;
+    max-width: 900px;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+body blockquote {
+	quotes: "\201C" "\201D";
+}
+body blockquote::before {
+	content: open-quote;
+	font-weight: bold;
+}
+body blockquote::after {
+	content: close-quote;
+	font-weight: bold;
+}
+article.homephoto {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 90%;
+}
+/* Site Navigation Styles */
+
+nav#siteNav {
+   float: left;
+   width: 15%;
+   height: 100%;
+   margin-right: 40px;
+}
+
+nav#siteNav ul {
+   list-style-type: none; 
+   padding-left: 0px; 
+   margin-left: 30px; 
+   font-size: 1em;
+}
+
+nav#siteNav a {
+   text-decoration: none; 
+   color: rgba(255, 0, 0, 0.9);
+}
+
+nav#siteNav a:hover {
+   text-decoration: overline underline;
+   color: rgba(158, 0, 0, 0.9);
+}
+
+nav#siteNav li.newTopic {
+   margin: 10px 0px 10px -20px;
+}
+
+
+/* Header Styles */
+
+header {
+   float: left;
+   border-bottom: 2px solid hsla(341, 65%, 36%, 1);
+   width: 74.3%;
+}
+/* Footer Styles */
+footer {
+	background-color: hsla(341, 65%, 61%, 1);
+	text-align: center;
+	font-size: 1em;
+	color: white;
+	clear: both;
+	width: 100%;
+	margin-left: auto;
+}
+
+
+/* Main Section Styles */
+
+section#main {
+   float: left;
+   width: 75%;
+   margin-left: 20%;
+   margin-right: 5%;
+}
+
+section#main h2 {
+   font-size: 1.9em;
+   letter-spacing: .1em;
+}
+section#aboutpg {
+	float: left;
+	width: 75%;
+	margin-left: 20%;
+	margin-right: 5%;
+}
+section#aboutpg h2 {
+	font-size: 1.9em;
+	letter-spacing: .1em;
+}
+
+/* pap.html (new for BoC2) */
+
+section#pappg {               /* uses section ids to add styles  */
+	float: left;
+	width: 75%;
+	margin-left: 20%;
+	margin-right: 5%;
+	overflow:visible;
+}
+
+section#pappg h2 {            /* heading styles */
+	font-size: 1.9em;
+	letter-spacing: .1em;
+}
+
+section#pappg h3 {
+	font-size: 1.5em;
+	letter-spacing:.05em;
+	margin-left: 20px;
+}
+section#pappg p {
+	margin-left: 20px;
+}
+
+section#aboutpap {           /* add borders */
+	border: 5px solid hsla(341, 65%, 61%, 1);
+	border-radius: 10px;
+	transform: rotateY(-10deg);  /* turns about block on the y axis */
+}
+section#loc {                /* add borders */
+	border: 5px solid hsla(341, 65%, 61%, 1);
+	border-radius: 10px;
+	transform: rotateY(10deg);
+}
+body#pap {                  /* background */
+	background-image: url(dancer_white.png);
+}
+footer#footerpap {
+	background: radial-gradient(rgba(220, 91, 132, 1) 50%, rgba(230, 137, 167, 1)) 40%;  /* adds a radial gradient to the footer of the PAP page */
+}
+
